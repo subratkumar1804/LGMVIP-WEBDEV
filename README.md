@@ -16,7 +16,7 @@ We have to create a single page website
 
 <h3>Task 2:</h3>
 
-<h4>Create a web application using create-react-app</h4>
+<h4>To create a web application using create-react-app :</h4>
 
 1. Create a User card grid layout having a navbar showing any brand name 
 
