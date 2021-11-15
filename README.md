@@ -14,4 +14,6 @@ IDE: Microsoft Visual Code Studio
 
 We have to create a single page website
 
+<h3>Task 2:</h3>
+
 
