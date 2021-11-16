@@ -1,0 +1,523 @@
+<html>
+    <head>
+        <title>Task1 | LGM</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!--CSS Links (BootStrap & Fontawesome)-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.css">
+        
+       
+  
+        
+        
+        <!--Fonts-->
+        <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&amp;family=Faster+One&amp;display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Acme&family=Libre+Baskerville&family=Play:wght@700&family=Playfair+Display&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&family=Josefin+Sans&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&display=swap" rel="stylesheet">
+        
+        
+        <!--Custom Style Sheets-->
+        <link rel="stylesheet" href="css/navtr.css">
+        <link rel="stylesheet" href="css/footer.css">
+        <link rel="stylesheet" href="css/main.css">
+        
+        <!--Scripts-->
+
+        <script>
+            function myFunction(imgs) {
+              var expandImg = document.getElementById("expandedImg");
+              var imgText = document.getElementById("imgtext");
+              expandImg.src = imgs.src;
+              imgText.innerHTML = imgs.alt;
+              expandImg.parentElement.style.display = "block";
+            }
+        </script>
+    <style>
+        .custom-toggler.navbar-toggler { 
+            border-color: black; 
+            border-width: 4px;
+            border-radius: 10px;
+        }
+        
+        .custom-toggler .navbar-toggler-icon { 
+            background-image: url(
+                "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='4' stroke-linecap='square'  stroke-miterlimit='100' d='M2 5h45M2 14h45M2 23h45'/%3E%3C/svg%3E"
+            );  
+            line-height: 200%;
+        }
+    
+        .navbar-brand {
+            color:white !important;
+        }
+        
+        .navbar-brand:hover, .navbar-brand:focus {
+            color: yellow  !important;
+        }
+    
+        .navbar-nav mr-auto {
+            margin-right: 10px !important;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="mynav">
+        <nav class="navbar navbar-expand-lg  navbar-light  fixed-top stroke">
+            <div class="container">
+    
+                <a class="navbar-brand mr-auto" href="index.html" style="padding-right: 70px;font-size: 25px;">ZIPPY</a>
+    
+                <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+    
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-brand"> <a class="navbar-brand" href="#home_section"
+                                style="font-family:JosefinSans; font-size:23px;padding-right: 10px;font-weight:5px">Home</a>
+                        </li>
+                        <li class="nav-brand"> <a class="navbar-brand" href="#proj_section"
+                                style="font-family:JosefinSans; font-size:23px;padding-right: 10px;font-weight:5px">Projects</a>
+                        </li>
+                        <li class="nav-brand "> <a class="navbar-brand" href="#price_section"
+                                style="font-family:JosefinSans; font-size:23px;padding-right: 10px;font-weight:5px">Pricing</a>
+                        </li>
+    
+                        <li class="nav-brand">
+                            <a class="navbar-brand" href="#team_section"
+                                style="font-family:JosefinSans; font-size:23px;padding-right: 10px;font-weight:5px">Team</a>
+                        </li>
+                        <li class="nav-brand">
+                            <a class="navbar-brand" href="#blog_section"
+                                style="font-family:JosefinSans; font-size:23px;padding-right: 10px;font-weight:5px">Blog</a>
+                        </li>
+                        <li class="nav-brand">
+                            <a class="navbar-brand" href="#cntc_section"
+                                style="font-family:JosefinSans; font-size:23px;padding-right: 10px;font-weight:5px">Contact</a>
+                        </li>
+    
+                        <form class="form-inline my-2 my-lg-0">
+    
+                        </form>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    
+    <div class="bradcam_area bradcam_bg_main" id="home_section">
+        <h1 style="font-family: Libre Baskerville;color: white;font-size:40px;padding-left: 190px;">One page promising to <br>fill all your needs..! </h1>
+        <h3 style="font-family: CrimsonText;color: white;font-size:25px;padding-left: 190px;">This is Photoshop's version of Lorem ipsum<br>Have a glance..! </h3>
+        <br>
+        <div class="container" style=" margin-left: 180px;">
+            <button type="button" class="btn btn-warning btn-lg">Learn more</button>
+            <button type="button" class="btn btn-primary btn-lg">Learn more</button>
+        </div>
+
+    </div>
+    <div class="row row-header">
+        <div class="event-body container " id="hello" style="background: rgb(255,252,0);
+        background: linear-gradient(90deg, rgba(255,252,0,1) 0%, rgba(228,22,22,1) 67%); margin-top:1%;padding:0.25%;border-radius:25px;border-bottom:0px">
+            <div class="text-center">
+             <h3 style="color:white;font-family:Crimson Pro;font-weight:bold;font-size:35px;"> WELCOME TO ZIPPY</h3>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-3 text-center" style="padding-top: 90px;">    
+        <div class="row" style="padding-left: 350px;padding-right:350px;">
+          <div class="col-sm-4">
+            <i class="fa fa-bell" style="padding-bottom:30px;font-size: 40px; color: purple;border-radius: 10px;"></i>
+            <h4 style="font-family: LibreBaskerville;">LOREM IPSUM</h4>
+            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, consectetur adipisicing elit eiusmod tempor incididunt.</p><br>
+            <button type="button" class="btn btn-warning btn-lg">Learn more</button>
+          </div>
+          <div class="col-sm-4"> 
+            <i class="fa fa-calendar" style="padding-bottom:30px;font-size: 40px; color: purple;"></i>
+            <h4 style="font-family: LibreBaskerville;">DOLOR SIT</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, consectetur adipisicing elit eiusmod tempor incididunt.</p><br>
+            <button type="button" class="btn btn-warning btn-lg">Learn more</button>
+          </div>
+          <div class="col-sm-4"> 
+            <i class="fa fa-folder" style="padding-bottom:30px;font-size: 40px; color: purple;"></i>
+            <h4 style="font-family: LibreBaskerville;">CONSECTETURE</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, consectetur adipisicing elit eiusmod tempor incididunt.</p><br>
+            <button type="button" class="btn btn-warning btn-lg">Learn more</button>
+          </div>
+        </div>
+        <hr class="new1" style="margin-left: 350px;margin-right:350px;margin-top: 50px;">
+    </div>
+
+    <!--PROJECTS-->
+    <h3 style="color:black;font-family:Crimson Pro;font-size: 33px;font-weight:bold;margin-left: 680px;padding-top: 30px;" id="proj_section"> PROJECTS</h3>
+    <div class="project-section">
+        <div class=" d-flex justify-content-around">
+            <div class="card">
+                <img src="img/b1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title" style="font-family: LibreBaskerville;">PROJECT TITLE</h5>
+                    <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500.</p>
+                    <a href="#" class="btn btn-primary" style="margin-left: 90px;">Launch Case Study</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/b1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title" style="font-family: LibreBaskerville;">PROJECT TITLE</h5>
+                    <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500.</p>
+                    <a href="#" class="btn btn-primary" style="margin-left: 90px;">Launch Case Study</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/b1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title" style="font-family: LibreBaskerville;">PROJECT TITLE</h5>
+                    <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500.</p>
+                    <a href="#" class="btn btn-primary" style="margin-left: 90px;">Launch Case Study</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/b1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title" style="font-family: LibreBaskerville;">PROJECT TITLE</h5>
+                    <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500.</p>
+                    <a href="#" class="btn btn-primary" style="margin-left: 90px;">Launch Case Study</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <h3 style="color:black;font-family:Crimson Pro;font-size: 33px;font-weight:bold;margin-left: 665px;padding-top: 70px;" id="price_section"> PRICING TABLE</h3>
+    <div class="price-section my-5">
+        <div class="p">
+            <div class="price-plan">
+                <h4 class="plan-heading" style="font-family: LibreBaskerville;">STANDARD PLANS</h4>
+                <h5 class="free">Free</h5>
+                <p class="content">2 Gb available</p>
+                <p class="content">15 max contain</p>
+                <p class="content">30 mountagius</p>
+                <p class="content">Ongoing ads</p>
+                <button class="bb">Buy</button>
+            </div>
+            <div class="border"></div>
+
+            <div class="price-plan">
+                <h3 class="plan-heading" style="font-family: LibreBaskerville;">STANDARD PLANS</h3>
+                <h5 class="free">Free</h5>
+                <p class="content">2 Gb available</p>
+                <p class="content">15 max contain</p>
+                <p class="content">30 mountagius</p>
+                <p class="content">Ongoing ads</p>
+                <button class="bb">Buy</button>
+            </div>
+            <div class="border"></div>
+            <div class="price-plan">
+                <h3 class="plan-heading" style="font-family: LibreBaskerville;">STANDARD PLANS</h3>
+                <h5 class="free">Free</h5>
+                <p class="content">2 Gb available</p>
+                <p class="content">15 max contain</p>
+                <p class="content">30 mountagius</p>
+                <p class="content">Ongoing ads</p>
+                <button class="bb">Buy</button>
+            </div>
+        </div>
+    </div>
+
+    <br><br><br>  
+    <div class="project-section" style="background-color: blueviolet;padding-top:30px;padding-bottom: 60px;" id="video_section">
+        <h3 style="color: yellow;font-family:Crimson Pro;font-size: 33px;font-weight:bold;margin-left: 650px;padding-bottom: 10px;"> VIDEO PROJECTS</h3>
+        <div class=" d-flex justify-content-around" >
+            <div class="card">
+                <iframe width="420" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                </iframe>
+            </div>
+            <div class="card">
+                <iframe width="420" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                </iframe> 
+            </div>
+            <div class="card">
+                <iframe width="420" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                </iframe>
+            </div>
+            <div class="card">
+                <iframe width="420" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                </iframe>
+            </div>
+        </div>
+    </div>
+    
+    <section>
+        <h3 style="color:black;font-family:Crimson Pro;font-size: 33px;font-weight:bold;margin-left: 30px;padding-top: 70px;" id="team_section"> ZIPPY TEAM</h3>
+        <div class="container" id="team_section">
+            <div class="my-card">
+                <div class="content">
+                    <div class="imgBx"><img src="img/t1.jpg"></div>
+                    <div class="contentBx">
+                      <h3 style="font-family: LibreBaskerville;"> SARA JOHNSON <br><span>Creative Designer</span></h3>
+                    </div>
+                </div>
+                <ul class="sci">
+                    <li style="--i:1">
+                      <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    </li>
+                    <li style="--i:2">
+                        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    </li>
+                    <li style="--i:3">
+                        <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="my-card">
+                <div class="content">
+                    <div class="imgBx"><img src="img/t2.jpg"></div>
+                    <div class="contentBx">
+                      <h3 style="font-family: LibreBaskerville;"> SWETHA MATTE <br><span>Art Director</span></h3>
+                    </div>
+                </div>
+                <ul class="sci">
+                    <li style="--i:1">
+                      <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    </li>
+                    <li style="--i:2">
+                        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    </li>
+                    <li style="--i:3">
+                        <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="my-card">
+                <div class="content">
+                    <div class="imgBx"><img src="img/t3.jpeg"></div>
+                    <div class="contentBx">
+                      <h3 style="font-family: LibreBaskerville;"> JOHN SMITH <br><span>Senior Designer</span></h3>
+                    </div>
+                </div>
+                <ul class="sci">
+                    <li style="--i:1">
+                      <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    </li>
+                    <li style="--i:2">
+                        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    </li>
+                    <li style="--i:3">
+                        <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="my-card">
+                <div class="content">
+                    <div class="imgBx"><img src="img/t4.jpeg"></div>
+                    <div class="contentBx">
+                      <h3 style="font-family: LibreBaskerville;"> ALIZA MANE <br><span>Marketing Manager</span></h3>
+                    </div>
+                </div>
+                <ul class="sci">
+                    <li style="--i:1">
+                      <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    </li>
+                    <li style="--i:2">
+                        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    </li>
+                    <li style="--i:3">
+                        <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="my-card">
+                <div class="content">
+                    <div class="imgBx"><img src="img/t5.jpeg"></div>
+                    <div class="contentBx">
+                      <h3 style="font-family: LibreBaskerville;"> REZINA  <br><span>Technical Lead</span></h3>
+                    </div>
+                </div>
+                <ul class="sci">
+                    <li style="--i:1">
+                      <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    </li>
+                    <li style="--i:2">
+                        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    </li>
+                    <li style="--i:3">
+                        <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="my-card">
+                <div class="content">
+                    <div class="imgBx"><img src="img/t6.jpeg"></div>
+                    <div class="contentBx">
+                      <h3 style="font-family: LibreBaskerville;"> JOSEPH HARRY <br><span>Event Manager</span></h3>
+                    </div>
+                </div>
+                <ul class="sci">
+                    <li style="--i:1">
+                      <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    </li>
+                    <li style="--i:2">
+                        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    </li>
+                    <li style="--i:3">
+                        <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <h3 style="color:black;font-family:Crimson Pro;font-size: 33px;font-weight:bold;margin-left: 680px;padding-top: 90px;padding-bottom: 30px;" id="gallery_section"> LIFE IN ZIPPY </h3>
+    <div class="row" style="padding-bottom: 10px;background-color: burlywood;">
+        <div class="column">
+          <img src="img/g1.jpeg"  style="width:100%" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <img src="img/g2.jpeg"  style="width:100%" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <img src="img/g3.jpeg" style="width:100%" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <img src="img/g4.jpeg" style="width:100%" onclick="myFunction(this);">
+        </div>
+      </div>
+      
+      <div class="container" id="gallery" style="padding-top:10px;padding-bottom: 70px;">
+        <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+        <img id="expandedImg" style="width:100%">
+        <div id="imgtext"></div>
+      </div>
+      
+                
+    <div class="signup" style="background-color: blueviolet;margin-top: 60px;">
+        <div class="container">
+            <h2 class="section-title" style="font-family:Crimson Pro;font-size: 33px;">Newsletter Signup</h2>
+            <form action="" class="signup-form">
+                <div class="signup-form-row">
+                    <input type="email" name="email-signup" id="email-signup" class="signup-email" placeholder="abc@gmail.com">
+                    <input type="button" value="Sign up" class="signup-btn signup-btn-active">
+                </div>
+            </form>
+         </div>
+    </div>
+
+    
+    <div class="container-fluid bg-3 text-center" style="padding-top: 50px;" id="blog_section">  
+        <h3 style="color:black;font-family:Crimson Pro;font-size: 33px;font-weight:bold;margin-left: 5px;padding-bottom: 20px;"> BLOG</h3>  
+        <div class="row" style="padding-left: 350px;padding-right:350px;">
+          <div class="col-sm-4">
+            <img src="img/galle.jpg" class="img-responsive margin" style="width:170px;height: 100px;" alt="Image">
+            <h4 style="padding-top:15px;">Blog 1</h4>
+            <p style="padding-top:5px;font-size: 15px;color:grey;font-weight: bold;">23 Jan, 2015</p>
+            <p style="padding-top:6px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, consectetur adipisicing elit eiusmod tempor incididunt.</p><br>
+            <button type="button" class="btn btn-warning btn-lg">Read more</button>
+          </div>
+          <div class="col-sm-4"> 
+            <img src="img/galle.jpg" class="img-responsive margin" style="width:170px;height: 100px;" alt="Image">
+            <h4 style="padding-top:15px;">Blog 2</h4>
+            <p style="padding-top:5px;font-size: 15px;color:grey;font-weight: bold;">12 April, 2017</p>
+            <p style="padding-top:6px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, consectetur adipisicing elit eiusmod tempor incididunt.</p><br>
+            <button type="button" class="btn btn-warning btn-lg">Read more</button>
+          </div>
+          <div class="col-sm-4"> 
+            <img src="img/galle.jpg" class="img-responsive margin" style="width:170px;height: 100px;" alt="Image">
+            <h4 style="padding-top:15px;">Blog 3</h4>
+            <p style="padding-top:5px;font-size: 15px;color:grey;font-weight: bold;">20 Dec, 2018</p>
+            <p style="padding-top:6px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, consectetur adipisicing elit eiusmod tempor incididunt.</p><br>
+            <button type="button" class="btn btn-warning btn-lg">Read more</button>
+          </div>
+        </div>
+        <hr class="new1" style="margin-left: 350px;margin-right:350px;margin-top: 50px;">
+    </div>
+    <div class="contact" id="cntc_section">
+        <div class="contact-left">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30712997.556211125!2d64.35556810010914!3d20.002419352146788!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30635ff06b92b791%3A0xd78c4fa1854213a6!2sIndia!5e0!3m2!1sen!2sin!4v1625843496891!5m2!1sen!2sin"
+                width="700" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div class="contact-right">
+            <h2 class="section-title" style="font-family:Crimson Pro;font-size: 35px;font-weight: bold;">Contact</h2>
+            <form action="" class="contact-form">
+                <div class="contact-form-row">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name">
+                </div>
+                <div class="contact-form-row">
+                    <label for="email">Email address</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div class="contact-form-row">
+                    <label for="sub">Subject</label>
+                    <input type="text" name="sub" id="sub">
+                </div>
+                <div class="contact-form-row">
+                    <label for="mes">Message</label>
+                    <textarea name="message" id="mes"></textarea>
+                </div>
+                <div class="contact-form-row">
+                    <input type="button" value="Send" class="contact-btn">
+                </div>
+            </form>
+        </div>
+    </div>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <div class="container-fluid bg-3 text-center">    
+        <div class="row" style="padding-left: 100px;padding-right:100px;padding-top:">
+          <div class="col-sm-4">
+            <h3 style="font-family:Crimson Pro;font-size: 33px;">Office Address</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+          <div class="col-sm-4"> 
+            <h4 class="mb-4" style="margin-left: 55px;font-family:Crimson Pro;font-size: 33px;">Follow us</h4>
+            <ul style="margin-left: 50px;">
+               <li><span class="social-icon social-facebook"><i class="fa fa-facebook"></i></span></li>
+               <li><span class="social-icon social-google"><i class="fa fa-google"></i></span></li>
+               <li><span class="social-icon social-linkedin"><i class="fa fa-linkedin"></i></span></li>
+               <li><span class="social-icon social-instagram"><i class="fa fa-instagram"></i></span></li>
+               <li><span class="social-icon social-twitter"><i class="fa fa-twitter"></i></span></li>
+            </ul>
+          </div>
+          <div class="col-sm-4"> 
+            <h3 style="font-family:Crimson Pro;font-size: 33px;">Contact Us</h3>
+            <p>+123456789 <br> zippy@gmail.com <br> zippy@skype</p>
+          </div>
+        </div>
+      </div>
+      
+        
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/nav.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <srcipt src="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.pkgd.js"></srcipt>
+    
+</body>
+</html>
