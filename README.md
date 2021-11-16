@@ -1,4 +1,4 @@
-# LGMVIP-WEBDEV
+# LGMVIP-WE
 
 <h3>Task 1:</h3>
 
